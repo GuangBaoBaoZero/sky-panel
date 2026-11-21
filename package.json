@@ -1,0 +1,30 @@
+{
+  "name": "dsh-sky-panel",
+  "version": "0.1.0",
+  "description": "星图面板：右栏 Tab「星图」= AE引擎+28宿知识层+Canvas可视化（行星图+天顶图+实时刷新+仪器美学）。农历=AE 月相引擎+自研排月（无第三方历算代码）。",
+  "type": "module",
+  "private": true,
+  "exports": {
+    ".": {
+      "default": "./lib/index.js"
+    },
+    "./client": {
+      "default": "./lib/client.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "dsh": {
+    "client": {
+      "platform": "web",
+      "immediately": true
+    }
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GuangBaoBaoZero/sky-panel.git"
+  },
+  "homepage": "https://github.com/GuangBaoBaoZero/sky-panel#readme"
+}
